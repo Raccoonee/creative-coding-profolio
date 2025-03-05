@@ -1,104 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devin Dennis | Projects</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <nav>
-        <div class="nav-container">
-            <a href="index.html" class="logo">Devin Dennis</a>
-            
-            <div class="menu-toggle" id="menuToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="index.html">Projects</a></li>
-                <li><a href="../about-me/index.html">About Me</a></li>
-            </ul>
+      <div class="nav-container">
+        <a href="index.html" class="logo">Devin Dennis</a>
+
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="../about-me/index.html">About Me</a></li>
+        </ul>
+      </div>
     </nav>
-    
+
     <header class="page-header">
-        <h1>My Projects</h1>
-        <p>Here's a collection of projects I've worked on. Each represents a problem I've solved or a skill I've developed.</p>
+      <h1>My Projects</h1>
+      <p>
+        Here's a collection of the creative coding projects I've worked on. Each
+        have been created with the help of using various LLMs (mainly Claude and
+        ChatGPT).
+      </p>
     </header>
-    
+
     <main class="projects-container">
-        <div class="projects-grid">
-            <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-image" style="background-image: url('/api/placeholder/400/300');"></div>
-                <div class="project-content">
-                    <h3>Interactive Fiction - Space Ship Mystery</h3>
-                    <p>This is a small text interactive fiction game where you are a crew memeber on a ship and must figure out what's going on. Techologies used below:</p>
-                    <div class="project-tags">
-                        <span class="tag">Inform 7</span>
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JavaScript</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://raccoonee.github.io/Space-Ship-Mystery/" target="_blank">Live Demo</a>
-                        <a href="https://github.com/Raccoonee/Space-Ship-Mystery" target="_blank">GitHub</a>
-                    </div>
-                </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="
+              background-image: url('./project-images/spaceshipmystery.png');
+            "
+          ></div>
+          <div class="project-content">
+            <h3>Interactive Fiction - Space Ship Mystery</h3>
+            <p>
+              This is a small text interactive fiction game where you are a crew
+              memeber on a ship and must figure out what's going on using Inform
+              7.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Inform 7</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
             </div>
-            
-            <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-image" style="background-image: url('/api/placeholder/400/300');"></div>
-                <div class="project-content">
-                    <h3>https://raccoonee.github.io/toroko-gorge/</h3>
-                    <p>A brief description of the project, what problems it solves, and what technologies were used.</p>
-                    <div class="project-tags">
-                        <span class="tag">React</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">MongoDB</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" target="_blank">Live Demo</a>
-                        <a href="#" target="_blank">GitHub</a>
-                    </div>
-                </div>
+            <div class="project-links">
+              <a
+                href="https://raccoonee.github.io/Space-Ship-Mystery/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Raccoonee/Space-Ship-Mystery"
+                target="_blank"
+                >GitHub</a
+              >
             </div>
-            
-            <!-- Project 3 -->
-            <div class="project-card">
-                <div class="project-image" style="background-image: url('/api/placeholder/400/300');"></div>
-                <div class="project-content">
-                    <h3>Project Title 3</h3>
-                    <p>A brief description of the project, what problems it solves, and what technologies were used.</p>
-                    <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Flask</span>
-                        <span class="tag">SQL</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" target="_blank">Live Demo</a>
-                        <a href="#" target="_blank">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Add more project cards as needed -->
+          </div>
         </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background-image: url('./project-images/TorokoGorge.png')"
+          ></div>
+          <div class="project-content">
+            <h3>Toroko Gorge Re-mix</h3>
+            <p>
+              This is a play of Toroko Gorge poems using text from the Gutenberg
+              project. The texts include: Alice in Wonderland, Dracula, Pegasus,
+              Pride and Prejudice, and Book of Ten Fishes.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Python</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://raccoonee.github.io/p5-game-demo/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Raccoonee/toroko-gorge"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background-image: url('./project-images/textVisual.png')"
+          ></div>
+          <div class="project-content">
+            <h3>Text Visualizer</h3>
+            <p>
+              This is a text visualizer that takes in a text and creates a
+              visual representation of the text using Tracery.js.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Tracery.js</span>
+              <span class="tag">jquery.js</span>
+              <span class="tag">p5.js</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://raccoonee.github.io/text-generator-visual/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Raccoonee/text-generator-visual"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background-image: url('./project-images/hiddenObject.png')"
+          ></div>
+          <div class="project-content">
+            <h3>Hidden Object Game</h3>
+            <p>
+              This is simple hidden object game where you must find the hidden
+              office supplies in a messy office using p5.js and an image
+              generated by Dall-E 3.
+            </p>
+            <div class="project-tags">
+              <span class="tag">p5.js</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://raccoonee.github.io/p5-game-demo/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Raccoonee/p5-game-demo"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background-image: url('./project-images/alchemist.png')"
+          ></div>
+          <div class="project-content">
+            <h3>Alchemist Game</h3>
+            <p>
+              This is a interactive game where you take elements and combine
+              them together with your fingers! This game was based of the
+              original Little Alchemy game using components of ml5.js and p5.js.
+              Credit to Patt Vira for the demo for the design of the game.
+            </p>
+            <div class="project-tags">
+                <span class="tag">p5.js</span>
+                <span class="tag">ml5.js</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://raccoonee.github.io/ml5-game/" target="_blank">Live Demo</a>
+              <a href="https://github.com/Raccoonee/ml5-game" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more project cards as needed -->
+      </div>
     </main>
+
+    <!-- P5.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
     
     <script>
-        // Simple JavaScript for mobile menu toggle
-        const menuToggle = document.getElementById('menuToggle');
-        const navLinks = document.getElementById('navLinks');
-        
-        menuToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
+      // Simple JavaScript for mobile menu toggle
+      const menuToggle = document.getElementById("menuToggle");
+      const navLinks = document.getElementById("navLinks");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
     </script>
-</body>
+    
+    <!-- P5.js Background Effect -->
+    <script src="background.js"></script>
+  </body>
 </html>

@@ -222,3 +222,38 @@ nav {
         grid-template-columns: 1fr;
     }
 }
+
+/* Add these to your index.css file to ensure the background and cards look good together */
+
+/* Ensure project cards stand out against the background */
+.project-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Make the page header more visible against the background */
+.page-header {
+    padding: 8rem 2rem 4rem;
+    text-align: center;
+    background-color: rgba(233, 236, 239, 0.85);
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+/* Ensure the body extends to full height for the background */
+html, body {
+    min-height: 100vh;
+    position: relative;
+}
